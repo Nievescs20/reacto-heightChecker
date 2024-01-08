@@ -5,16 +5,16 @@ function heightChecker(heights) {
   for (let i = 0; i < heights.length; i++) {
     const currentStudentHeight = heights[i];
 
+    if (currentStudentHeight < currentTallest) {
+      studentsOutOfOrder++;
+    }
+
     currentTallest = Math.max(currentTallest, currentStudentHeight);
 
     //if you're not sure what Math.max does
     // if (currentStudentHeight > currentTallest) {
     //   currentTallest = currentStudentHeight;
     // }
-
-    if (currentStudentHeight < currentTallest) {
-      studentsOutOfOrder++;
-    }
   }
 
   return studentsOutOfOrder;
