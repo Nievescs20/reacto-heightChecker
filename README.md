@@ -1,6 +1,6 @@
 # Height Checker
 
-## Prompt
+## Gist
 
 You are given an array heights representing the heights of students in a class. The students are standing in a line, and their heights are listed in the order they appear from left to right. The school wants to arrange the students in a non-decreasing order by their heights. However, when they rearrange the students, a few may end up in different positions from their original positions.
 
